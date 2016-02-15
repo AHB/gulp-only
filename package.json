@@ -1,6 +1,6 @@
 {
   "name": "gulp-only",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple gulp plugin to search for describe.only and it.only",
   "main": "./lib/index.js",
   "scripts": {
@@ -12,9 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "gulp-util": "3.0.7",
-    "through2": "2.0.1"
-  },
-  "devDependencies": {
+    "through2": "2.0.1",
     "babel-cli": "6.5.1",
     "babel-preset-es2015": "6.5.0"
   }
