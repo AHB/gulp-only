@@ -1,6 +1,6 @@
 {
   "name": "gulp-only",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple gulp plugin to search for describe.only and it.only",
   "main": "./lib/index.js",
   "scripts": {
