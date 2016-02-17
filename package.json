@@ -3,6 +3,10 @@
   "version": "1.0.3",
   "description": "Simple gulp plugin to search for describe.only and it.only",
   "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AHB/gulp-only.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/babel src -d lib",
