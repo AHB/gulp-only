@@ -10,11 +10,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/babel src -d lib",
-    "postinstall": "./node_modules/.bin/babel src -d lib"
+    "prepublish": "npm run build"
   },
   "author": "AHB",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "gulp-util": "3.0.7",
     "through2": "2.0.1",
     "babel-cli": "6.5.1",
